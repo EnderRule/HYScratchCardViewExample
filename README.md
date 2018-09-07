@@ -1,6 +1,6 @@
 HYScratchCardViewExample
 ========================
 
-more infomation: http://rainbownight.blog.51cto.com/1336585/1417310
+fork from: https://github.com/HoneyLuka/HYScratchCardViewExample
 
-any question: rainfyou@gmail.com
+any question: 772613890@qq.com

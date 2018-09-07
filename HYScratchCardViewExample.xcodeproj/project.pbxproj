@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		664B5BA721413DDC00E74F5D /* scratch_image_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratch_image_cover.png; sourceTree = "<group>"; };
+		664B5BA9214228F900E74F5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		BFA5EAA71933434000EEE58A /* HYScratchCardViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYScratchCardViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA5EAAA1933434000EEE58A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFA5EAAC1933434100EEE58A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +129,7 @@
 				BFA5EABF1933434100EEE58A /* ViewController.h */,
 				BFA5EAC01933434100EEE58A /* ViewController.m */,
 				BFA5EAC21933434100EEE58A /* Images.xcassets */,
+				664B5BA9214228F900E74F5D /* README.md */,
 				BFA5EAB11933434100EEE58A /* Supporting Files */,
 			);
 			path = HYScratchCardViewExample;
