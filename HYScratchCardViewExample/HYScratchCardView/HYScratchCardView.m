@@ -84,21 +84,21 @@
 }
 -(void)setLineWidth:(CGFloat)lineWidth {
     _lineWidth = lineWidth;
-    
+    self.shapeLayer.lineWidth = self.lineWidth;
     if (self.checkPoints.count > 0) {
         [self calculateCheckPoints];
     }}
 
 -(void)calculateCheckPoints {
     self.checkPoints = [NSMutableArray arrayWithCapacity:0];
-    CGFloat x = self.lineWidth;
+    CGFloat x = self.lineWidth*2;
     while (x < self.frame.size.width) {
-        CGFloat y = self.lineWidth;
+        CGFloat y = self.lineWidth*2;
         while (y < self.frame.size.height) {
             [self.checkPoints addObject:NSStringFromCGPoint(CGPointMake(x, y))];
-            y += self.lineWidth;
+            y += self.lineWidth*2;
         }
-        x += self.lineWidth;
+        x += self.lineWidth*2;
     }
 }
 
