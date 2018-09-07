@@ -22,15 +22,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.scratchCardView = [[HYScratchCardView alloc]initWithFrame:CGRectMake(85, 100, 150, 150)];
+    self.scratchCardView = [[HYScratchCardView alloc]initWithFrame:CGRectMake(20, 100, self.view.frame.size.width - 40, 200)];
     self.scratchCardView.image = [UIImage imageNamed:@"lottery_award"];
     self.scratchCardView.surfaceImage = [UIImage imageNamed:@"scratch_image_cover"];
-    
+    if ([[UIDevice currentDevice].model.lowercaseString containsString:@"ipad"]) {
+        self.scratchCardView.lineWidth = 25;
+    } else {
+        self.scratchCardView.lineWidth = 15;
+    }
     [self.view addSubview:self.scratchCardView];
     
     __block UIButton *butt = [UIButton buttonWithType:UIButtonTypeCustom];
     [butt setTitle:@"再来一次" forState:UIControlStateNormal];
-    butt.frame = CGRectMake(0, 0, 64, 30);
+    butt.frame = CGRectMake(0, 0, 72, 25);
     butt.layer.borderColor = [UIColor yellowColor].CGColor;
     butt.layer.cornerRadius = 5.0;
     butt.layer.borderWidth = 2.0;
