@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664B5BA821413DDC00E74F5D /* scratch_image_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 664B5BA721413DDC00E74F5D /* scratch_image_cover.png */; };
 		BFA5EAAB1933434000EEE58A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA5EAAA1933434000EEE58A /* Foundation.framework */; };
 		BFA5EAAD1933434100EEE58A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA5EAAC1933434100EEE58A /* CoreGraphics.framework */; };
 		BFA5EAAF1933434100EEE58A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA5EAAE1933434100EEE58A /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		664B5BA721413DDC00E74F5D /* scratch_image_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratch_image_cover.png; sourceTree = "<group>"; };
 		BFA5EAA71933434000EEE58A /* HYScratchCardViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYScratchCardViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA5EAAA1933434000EEE58A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFA5EAAC1933434100EEE58A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				BFA5EAE9193346AD00EEE58A /* lottery_award@2x.png */,
+				664B5BA721413DDC00E74F5D /* scratch_image_cover.png */,
 				BFA5EADF1933434A00EEE58A /* HYScratchCardView */,
 				BFA5EAB91933434100EEE58A /* AppDelegate.h */,
 				BFA5EABA1933434100EEE58A /* AppDelegate.m */,
@@ -215,6 +218,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Shadow;
 				TargetAttributes = {
+					BFA5EAA61933434000EEE58A = {
+						DevelopmentTeam = S5LNM8C4NX;
+					};
 					BFA5EAC71933434100EEE58A = {
 						TestTargetID = BFA5EAA61933434000EEE58A;
 					};
@@ -248,6 +254,7 @@
 				BFA5EAB51933434100EEE58A /* InfoPlist.strings in Resources */,
 				BFA5EAEA193346AD00EEE58A /* lottery_award@2x.png in Resources */,
 				BFA5EABE1933434100EEE58A /* Main.storyboard in Resources */,
+				664B5BA821413DDC00E74F5D /* scratch_image_cover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = S5LNM8C4NX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYScratchCardViewExample/HYScratchCardViewExample-Prefix.pch";
 				INFOPLIST_FILE = "HYScratchCardViewExample/HYScratchCardViewExample-Info.plist";
@@ -407,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = S5LNM8C4NX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYScratchCardViewExample/HYScratchCardViewExample-Prefix.pch";
 				INFOPLIST_FILE = "HYScratchCardViewExample/HYScratchCardViewExample-Info.plist";
@@ -474,6 +483,7 @@
 				BFA5EADB1933434100EEE58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA5EADC1933434100EEE58A /* Build configuration list for PBXNativeTarget "HYScratchCardViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +492,7 @@
 				BFA5EADE1933434100EEE58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

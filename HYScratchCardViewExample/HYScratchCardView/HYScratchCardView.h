@@ -10,6 +10,8 @@
 
 typedef void(^scratchCompletion)(id userInfo);
 
+typedef void(^LayoutScratchViewBlock)(UIView *view);
+
 @interface HYScratchCardView : UIView
 
 /**
@@ -18,9 +20,26 @@ typedef void(^scratchCompletion)(id userInfo);
 @property (nonatomic, strong) UIImage *image;
 
 /**
+ 对要刮的底图view自定义布局。 优先于 image 属性。
+ */
+@property (nonatomic, strong) LayoutScratchViewBlock layoutBlock;
+
+/**
  涂层图片.
  */
 @property (nonatomic, strong) UIImage *surfaceImage;
+
+
+/**
+ 线条宽度 默认 15.0
+ */
+@property (nonatomic,assign) CGFloat lineWidth;
+
+
+/**
+ 刮掉多少比例就算是完成，默认 0.75
+ */
+@property (nonatomic,assign) CGFloat completionRate;
 
 /**
  涂层是否已被刮开
